@@ -1,0 +1,14 @@
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.AssemblyInfoInputs.cache
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.AssemblyInfo.cs
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.csproj.CoreCompileInputs.cache
+C:\Users\bea\Desktop\programació\cosas\bin\Debug\net8.0\cosas.exe
+C:\Users\bea\Desktop\programació\cosas\bin\Debug\net8.0\cosas.deps.json
+C:\Users\bea\Desktop\programació\cosas\bin\Debug\net8.0\cosas.runtimeconfig.json
+C:\Users\bea\Desktop\programació\cosas\bin\Debug\net8.0\cosas.dll
+C:\Users\bea\Desktop\programació\cosas\bin\Debug\net8.0\cosas.pdb
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.dll
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\refint\cosas.dll
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.pdb
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\cosas.genruntimeconfig.cache
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net8.0\ref\cosas.dll

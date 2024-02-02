@@ -1,0 +1,5 @@
+{
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "fullSolution",
+    "dotnet.backgroundAnalysis.compilerDiagnosticsScope": "fullSolution"
+}

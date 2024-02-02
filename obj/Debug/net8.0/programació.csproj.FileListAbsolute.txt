@@ -1,0 +1,4 @@
+C:\Users\bea\Desktop\programació\obj\Debug\net8.0\programació.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bea\Desktop\programació\obj\Debug\net8.0\programació.AssemblyInfoInputs.cache
+C:\Users\bea\Desktop\programació\obj\Debug\net8.0\programació.AssemblyInfo.cs
+C:\Users\bea\Desktop\programació\obj\Debug\net8.0\programació.csproj.CoreCompileInputs.cache

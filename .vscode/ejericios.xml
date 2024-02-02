@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Catalog>
+   <Book id="bk101">
+      <Author>Lomborg, Bjorn</Author>
+      <Title>Lo que sí funciona</Title>
+      <Genre>Economía y Empresa</Genre>
+      <Price>18,95</Price>
+   </Book>
+   <Book id="bk102">
+      <Author>King, Stephen</Author>
+      <Title>Holly</Title>
+      <Genre>Novela negra</Genre>
+      <Price>22,70</Price>
+   </Book>
+</Catalog>

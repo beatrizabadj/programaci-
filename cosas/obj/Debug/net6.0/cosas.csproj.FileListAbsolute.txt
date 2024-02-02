@@ -1,0 +1,5 @@
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net6.0\cosas.csproj.AssemblyReference.cache
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net6.0\cosas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net6.0\cosas.AssemblyInfoInputs.cache
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net6.0\cosas.AssemblyInfo.cs
+C:\Users\bea\Desktop\programació\cosas\obj\Debug\net6.0\cosas.csproj.CoreCompileInputs.cache

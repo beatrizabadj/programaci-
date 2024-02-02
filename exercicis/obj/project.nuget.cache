@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DTBGZ1WKGkwKCRqaPy/o81WNxw5JJooGab9vINj352cYBhg6QNP/2eoAWGxfTCuAFPoP/kZATLwGcfi8PefCZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bea\\Desktop\\programació\\exercicis\\programació.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bea\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\bea\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\bea\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\bea\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
