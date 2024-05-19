@@ -1,2 +1,109 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        List<string> mensajesLocales = new List<string>();
+        
+        // Mensajes iniciales desde el archivo
+        string nombreArchivo = "mensajes.txt";
+        if (File.Exists(nombreArchivo))
+        {
+            mensajesLocales = File.ReadAllLines(nombreArchivo).ToList();
+        }
+
+        // Añadir un mensaje local
+        AñadirMensaje(mensajesLocales, "gracia", "hopper", "¡Bienvenida!");
+
+        // Listar todos los usuarios
+        var usuarios = ListarUsuarios(mensajesLocales);
+        Console.WriteLine("Usuarios:");
+        foreach (var usuario in usuarios)
+        {
+            Console.WriteLine(usuario);
+        }
+
+        // Leer mensajes por usuario
+        var mensajesPorUsuario = LeerMensajesPorUsuario(mensajesLocales, "alicia");
+        Console.WriteLine("\nMensajes para alicia:");
+        foreach (var msg in mensajesPorUsuario)
+        {
+            Console.WriteLine(msg);
+        }
+
+        // Leer todos los mensajes locales
+        var todosLosMensajes = LeerTodosLosMensajes(mensajesLocales);
+        Console.WriteLine("\nTodos los mensajes:");
+        foreach (var msg in todosLosMensajes)
+        {
+            Console.WriteLine(msg);
+        }
+
+        // Pasar mensajes locales a archivo
+        EscribirMensajesAlArchivo(mensajesLocales, nombreArchivo);
+
+        // Leer todos los mensajes del archivo
+        var mensajesDelArchivo = LeerMensajesDelArchivo(nombreArchivo);
+        Console.WriteLine("\nMensajes del archivo:");
+        foreach (var msg in mensajesDelArchivo)
+        {
+            Console.WriteLine(msg);
+        }
+    }
+
+    static void AñadirMensaje(List<string> mensajes, string usuario, string asunto, string mensaje)
+    {
+        mensajes.Add($"{usuario};{asunto};{mensaje}");
+    }
+
+    static List<string> ListarUsuarios(List<string> mensajes)
+    {
+        var usuarios = new HashSet<string>();
+        foreach (var msg in mensajes)
+        {
+            var partes = msg.Split(';');
+            if (partes.Length >= 3)
+            {
+                usuarios.Add(partes[0]);
+            }
+        }
+        return usuarios.ToList();
+    }
+
+    static List<string> LeerMensajesPorUsuario(List<string> mensajes, string usuario)
+    {
+        var mensajesUsuario = new List<string>();
+        foreach (var msg in mensajes)
+        {
+            var partes = msg.Split(';');
+            if (partes.Length >= 3 && partes[0] == usuario)
+            {
+                mensajesUsuario.Add(msg);
+            }
+        }
+        return mensajesUsuario;
+    }
+
+    static List<string> LeerTodosLosMensajes(List<string> mensajes)
+    {
+        return mensajes;
+    }
+
+    static void EscribirMensajesAlArchivo(List<string> mensajes, string nombreArchivo)
+    {
+        File.WriteAllLines(nombreArchivo, mensajes);
+    }
+
+    static List<string> LeerMensajesDelArchivo(string nombreArchivo)
+    {
+        if (File.Exists(nombreArchivo))
+        {
+            return File.ReadAllLines(nombreArchivo).ToList();
+        }
+        return new List<string>();
+    }
+}
